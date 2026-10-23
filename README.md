@@ -1,5 +1,7 @@
 # Xianyu-JD Arbitrage Skill｜闲鱼·京东代发自动化
 
+仓库地址：https://github.com/Wangmarco123/xianyu-jd-arbitrage-skill　·　最新安装包：见 [Releases](https://github.com/Wangmarco123/xianyu-jd-arbitrage-skill/releases)
+
 > 把「京东自营低价进货 → 闲鱼加价/减价转卖」的全流程做成可被 AI Agent 直接调用的技能包：
 > **京东只搜不点详情取价 → 品牌官网取无水印图 → 闲鱼批量上架 → 发布后体检**。
 
@@ -252,7 +254,7 @@ git status --short
 
 ```bash
 # Claude Code / DSH 等：把仓库放进 skills 根目录即可被自动发现
-git clone https://github.com/<你的用户名>/xianyu-jd-arbitrage-skill.git \
+git clone https://github.com/Wangmarco123/xianyu-jd-arbitrage-skill.git \
   ~/.agents/skills/xianyu-jd-arbitrage
 ```
 
