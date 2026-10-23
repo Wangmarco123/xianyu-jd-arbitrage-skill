@@ -2,6 +2,14 @@
 
 仓库地址：https://github.com/Wangmarco123/xianyu-jd-arbitrage-skill　·　最新安装包：见 [Releases](https://github.com/Wangmarco123/xianyu-jd-arbitrage-skill/releases)
 
+
+![license](https://img.shields.io/badge/license-MIT-blue)
+![python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
+![chrome-extension](https://img.shields.io/badge/chrome-Manifest%20V3-4285F4?logo=googlechrome&logoColor=white)
+![release](https://img.shields.io/github/v/release/Wangmarco123/xianyu-jd-arbitrage-skill?label=release)
+![stars](https://img.shields.io/github/stars/Wangmarco123/xianyu-jd-arbitrage-skill?style=social)
+
+
 > 把「京东自营低价进货 → 闲鱼加价/减价转卖」的全流程做成可被 AI Agent 直接调用的技能包：
 > **京东只搜不点详情取价 → 品牌官网取无水印图 → 闲鱼批量上架 → 发布后体检**。
 
