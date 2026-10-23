@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { width: 280px; margin: 0; padding: 14px; font-family: system-ui, sans-serif; }
+      h1 { font-size: 16px; margin: 0 0 10px; }
+      .row { margin: 8px 0; color: #333; }
+      .ok { color: #0a7f3f; }
+      .bad { color: #b42318; }
+      button { width: 100%; padding: 8px; border: 0; border-radius: 6px; background: #ffe100; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <h1>Xianyu Bridge</h1>
+    <div class="row">Bridge: <span id="status">检测中...</span></div>
+    <div class="row">端口: ws://localhost:9444</div>
+    <button id="refresh">刷新状态</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

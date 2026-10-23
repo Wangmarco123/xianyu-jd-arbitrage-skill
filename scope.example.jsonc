@@ -1,0 +1,51 @@
+// 选品范围配置。复制成 scope.jsonc 后按需修改；注释用 // 或 #
+// 条件：京东自营、全新、单价 ≥ min_price（京东价），上架价 = 京东价 − discount
+{
+  "min_price": 9000,
+  "discount": 200,
+
+  "categories": [
+    {
+      "key": "apple_iphone",
+      "label": "苹果手机",
+      "keywords": ["iPhone 18", "iPhone 18 Pro", "iPhone 18 Pro Max"],
+      "image_source": "apple_official"
+    },
+    {
+      "key": "apple_laptop",
+      "label": "苹果笔记本",
+      "keywords": ["MacBook Air", "MacBook Pro"],
+      "image_source": "apple_official"
+    },
+    {
+      "key": "apple_desktop",
+      "label": "苹果台式/主机",
+      "keywords": ["Mac mini", "iMac", "Mac Studio"],
+      "image_source": "apple_official"
+    },
+    {
+      "key": "huawei_phone",
+      "label": "华为手机（旗舰）",
+      "keywords": ["华为 Mate 80 RS", "华为 非凡大师"],
+      "image_source": "huawei_official"
+    },
+    {
+      "key": "huawei_laptop",
+      "label": "华为笔记本/电脑（旗舰）",
+      "keywords": ["MateBook X Pro", "MateBook Fold"],
+      "image_source": "huawei_official"
+    },
+    {
+      "key": "camera",
+      "label": "相机",
+      "keywords": ["微单相机", "索尼 微单", "佳能 微单"],
+      "image_source": "brand_official"
+    },
+    {
+      "key": "lens",
+      "label": "镜头",
+      "keywords": ["微单镜头", "索尼 G大师 镜头", "佳能 RF 镜头"],
+      "image_source": "brand_official"
+    }
+  ]
+}
